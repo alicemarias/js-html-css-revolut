@@ -1,0 +1,56 @@
+/* inizio regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  margin-top: 50px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+ul {
+  list-style-type: none;
+}
+ul li {
+  display: inline-block;
+  text-decoration: none;
+  padding-right: 13px;
+}
+ul li a {
+  text-decoration: none;
+  color: grey;
+}
+/* fine regole genrali */
+.navigazione {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  line-height: 60px;
+}
+.navigazione img {
+  height: 30px;
+  line-height: 60px;
+}
+/* bottone scarica app */
+.button {
+  border: 1px solid magenta;
+  border-radius: 15px;
+  color: white;
+  background-color: magenta;
+  padding: 6px;
+
+}
+/* inizio dropdown fatto con javascript */
+.with-dropdown {
+  position: relative;
+}
+.dropdown {
+  position: absolute;
+  width: 80px;
+  display: none;
+}
+
+.dropdown .open {
+  display: block;
+}
